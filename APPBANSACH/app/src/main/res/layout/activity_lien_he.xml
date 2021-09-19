@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3EE9FF"
+    tools:context=".activity.LienHeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:background="#00BCD4"
+        app:titleTextColor="#F8F8F8"
+        app:title="Thông Tin"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/hinhnen1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Thành Viên"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+          android:layout_margin="50dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Nguyễn Đức Tuân"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Nông Thái Sơn"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Nguyễn Văn Mạnh"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
